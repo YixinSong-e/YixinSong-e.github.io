@@ -59,7 +59,6 @@ class Home extends Language {
             }
             </div>
           </div>
-          
         </section>
         <section className="introduction-section">
           <div className="introduction-body">
@@ -68,37 +67,6 @@ class Home extends Language {
               <p>{dataSource.introduction.desc}</p>
             </div>
             <img src={getLink(dataSource.introduction.img)} />
-          </div>
-        </section>
-        <section className="feature-section">
-          <h3>{dataSource.features.title}</h3>
-          <ul>
-          {
-            dataSource.features.list.map((feature, i) => (
-              <Item feature={feature} key={i} />
-            ))
-          }
-          </ul>
-        </section>
-        <section className="start-section">
-          <div className="start-body">
-            <div className="left-part">
-              <h3>{dataSource.start.title}</h3>
-              <p>{dataSource.start.desc}</p>
-              <a href={getLink(dataSource.start.button.link)} target={dataSource.start.button.link || '_self'}>{dataSource.start.button.text}</a>
-              </div>
-            <div className="right-part"><img src={getLink('/img/quick_start.png')} /></div>
-          </div>
-        </section>
-        <section className="users-section">
-          <h3>{dataSource.users.title}</h3>
-          <p>{dataSource.users.desc}</p>
-          <div className="users">
-          {
-            dataSource.users.list.map((user, i) => (
-              <img src={getLink(user)} key={i} />
-            ))
-          }
           </div>
         </section>
         <Footer logo="/img/IPADS-Logo-Blue.png" language={language} />

@@ -14,19 +14,15 @@ export default {
       },
       {
         key: 'docs',
-        text: 'DOCS',
+        text: 'FAQS',
         link: '/en-us/docs/demo1.html',
       },
       {
         key: 'blog',
-        text: 'BLOG',
+        text: 'NEWS',
         link: '/en-us/blog/index.html',
       },
-      {
-        key: 'community',
-        text: 'COMMUNITY',
-        link: '/en-us/community/index.html',
-      },
+      
     ],
     disclaimer: {
       title: 'Disclaimer',
