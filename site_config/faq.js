@@ -2,7 +2,7 @@ export default {
   'en-us': {
     sidemenu: [
       {
-        
+        title: 'faq',
         children: [
           {
             title: 'faq',
