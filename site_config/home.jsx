@@ -107,12 +107,12 @@ export default {
         },
         {
           text: 'View on Github',
-          link: '',
+          link: 'https://github.com/SJTU-IPADS/duvisor',
           type: 'normal',
         },
         {
           text: 'Team Members',
-          link: '',
+          link: '/en-us/developers/index.html',
           type: 'n',
         },
       ],
