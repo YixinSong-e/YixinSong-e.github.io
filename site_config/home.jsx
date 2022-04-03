@@ -118,9 +118,9 @@ export default {
       ],
     },
     introduction: {
-      title: 'introduction title',
-      desc: 'some introduction of your product',
-      img: '/img/architecture.png',
+      title: 'DuVisor',
+      desc: 'A User-Level Hypervisor Through HU-Extension on RISC-V',
+      img: '/img/introduction.png',
     },
     features: {
       title: 'Feature List',
