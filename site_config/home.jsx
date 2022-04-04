@@ -98,22 +98,22 @@ export default {
   'en-us': {
     brand: {
       brandName: 'DuVisor',
-      briefIntroduction: 'DuVisor is a user-level hypervisor through delegate virtualization',
+      briefIntroduction: 'DuVisor is a user-level hypervisor through delegated virtualization on RISC-V',
       buttons: [
         {
-          text: 'Documentation',
+          text: 'What is DuVisor?',
           link: '/en-us/docs/demo1.html',
           type: 'primary',
         },
         {
-          text: 'View on Github',
+          text: 'Who are we?',
           link: 'https://github.com/SJTU-IPADS/duvisor',
           type: 'normal',
         },
       ],
       buttons2:[
         {
-          text: 'Team Members',
+          text: 'Why DuVisor?',
           link: '/en-us/developers/index.html',
           type: 'n',
         },
