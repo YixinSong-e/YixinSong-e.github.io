@@ -60,7 +60,7 @@ class Home extends Language {
             </div>
             <div className="button-area2">
             {
-              dataSource.brand.buttons.map(b => <Button type={'normal'} key={'normal'} link={'www.baidu.com'} target={'_self'}>{'1'}</Button>)
+              dataSource.brand.buttons.map(b => <Button type={'normal'} key={'normal'} link={'developers/index.html'} target={'_self'}>{'Team Members'}</Button>)
             }
             </div>
           </div>
