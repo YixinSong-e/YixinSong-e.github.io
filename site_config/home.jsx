@@ -110,6 +110,12 @@ export default {
           link: 'https://github.com/SJTU-IPADS/duvisor',
           type: 'normal',
         },
+      ],
+    },
+    brand2: {
+      brandName: 'DuVisor',
+      briefIntroduction: 'DuVisor is a user-level hypervisor through delegate virtualization',
+      buttons: [
         {
           text: 'Team Members',
           link: '/en-us/developers/index.html',
