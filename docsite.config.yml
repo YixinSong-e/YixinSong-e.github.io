@@ -8,7 +8,7 @@ pages:
    description: '页面内容简介'
   # home config
   en-us:
-   title: 'page title'
+   title: 'DuVisor'
    keywords: 'keyword1,keyword2'
    description: 'page description'
  community:
