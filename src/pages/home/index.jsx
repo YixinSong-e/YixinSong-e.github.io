@@ -70,6 +70,11 @@ class Home extends Language {
           <div className="animation animation4" />
           <div className="animation animation5" />
         </section>
+        <section className="title1-section">
+
+              <h3>{'Why DuVisor?'}</h3>
+          
+        </section>
         <section className="introduction-section">
           <div className="introduction-body">
             <div className="introduction">
