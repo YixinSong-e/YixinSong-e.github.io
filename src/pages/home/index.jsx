@@ -71,10 +71,12 @@ class Home extends Language {
           <div className="animation animation5" />
         </section>
         <section className="introduction-section">
+        <h3>{"Why DuVisor?"}</h3>
           <div className="introduction-body">
             <div className="introduction">
               <h3>{dataSource.introduction.title}</h3>
               <p>{dataSource.introduction.desc}</p>
+              <p>{'The one-to-one service model further enhances the isolation between VMs and the fault tolerance of the entire system.'}</p>
             </div>
             <img src={getLink(dataSource.introduction.img)} />
           </div>
@@ -82,8 +84,9 @@ class Home extends Language {
         <section className="introduction-section">
           <div className="introduction-body">
             <div className="introduction">
-              <h3>{'Performance'}</h3>
-              <p>{'Getting rid of redundant mode switching and the all-in-one design completely unleash the potential performance of virtualization.'}</p>
+              <h1>{'Near-native Performance'}</h1>
+              <p>{'Getting rid of redundant mode switching completely unleash the potential performance of virtualization. '}</p>
+              <p>{'All-in-one design makes code further efficient.'}</p>
             </div>
             <img src={getLink('/img/Performance.png')} />
           </div>
@@ -91,8 +94,8 @@ class Home extends Language {
         <section className="introduction-section">
           <div className="introduction-body">
             <div className="introduction">
-              <h3>{'Practicality'}</h3>
-              <p>{'Benefit from the thriving software environment, DuVisor is developed in the memory-safe language RUST and upgrades without downtime every time. Stronger fault tolerance also leads to more stable cloud services.'}</p>
+              <h3>{'Better Practicality'}</h3>
+              <p>{'Benefit from the thriving software environment in user space, DuVisor is developed in the memory-safe language Rust. Each upgrade of DuVisor can be completed without host reboots. Stronger fault tolerance also leads to more stable cloud services and better management.'}</p>
             </div>
             <img src={getLink('/img/Practicality.png')} />
           </div>

@@ -120,8 +120,8 @@ export default {
       ]
     },
     introduction: {
-      title: 'Security',
-      desc: 'A deprivileged hypervisor eliminates the kernel’s attack surface introduced by virtualization. The one-to-one service model further enhances the isolation between VMs and the fault tolerance of the entire system',
+      title: 'Stronger Security',
+      desc: 'A deprivileged hypervisor eliminates the kernel’s attack surface introduced by virtualization. ',
       img: '/img/first.png',
     },
     
