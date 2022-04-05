@@ -85,7 +85,7 @@ class Home extends Language {
               <h3>{'Performance'}</h3>
               <p>{'Getting rid of redundant mode switching and the all-in-one design completely unleashes the potential performance of virtualization.'}</p>
             </div>
-            <img src={getLink('/img/performance.png')} />
+            <img src={getLink('/img/performance.png')} width="400" height="400" />
           </div>
         </section>
         <section className="introduction-section">
@@ -94,7 +94,7 @@ class Home extends Language {
               <h3>{'Practicality'}</h3>
               <p>{'Benefit from the thriving software environment, DuVisor is developed in the memory-safe language RUST and upgrades without downtime every time. Stronger fault tolerance also leads to more stable cloud services.'}</p>
             </div>
-            <img src={getLink('/img/pratically.png')} />
+            <img src={getLink('/img/pratically.png')}  height="400" />
           </div>
         </section>
         <Footer logo="/img/IPADS-Logo-Blue.png" language={language} />
