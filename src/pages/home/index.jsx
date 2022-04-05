@@ -88,7 +88,7 @@ class Home extends Language {
         <section className="introduction-section">
           <div className="introduction-body">
             <div className="introduction">
-              <h1>{'Near-native Performance'}</h1>
+              <h3>{'Near-native Performance'}</h3>
               <p>{'Getting rid of redundant mode switching completely unleash the potential performance of virtualization. '}</p>
               <p>{'All-in-one design makes code further efficient.'}</p>
             </div>

@@ -1867,6 +1867,7 @@ h1, h2, h3, h4, h5, h6 {
         margin: 0; } }
 
 .home-page .title1-section {
+  background: #F9FAFA;
   box-sizing: border-box;
   max-width: 1280px;
   margin: 0 auto;
