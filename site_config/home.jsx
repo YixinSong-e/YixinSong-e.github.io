@@ -102,7 +102,7 @@ export default {
       buttons: [
         {
           text: 'What is DuVisor?',
-          link: '/en-us/docs/demo1.html',
+          link: '/en-us/docs/motivation.html',
           type: 'primary',
         },
         {
@@ -120,8 +120,8 @@ export default {
       ],
     },
     introduction: {
-      title: 'Stronger Security',
-      desc: 'A deprivileged hypervisor eliminates the kernel’s attack surface introduced by virtualization. ',
+      title: 'DuVisor',
+      desc: 'A User-Level Hypervisor Through HU-Extension on RISC-V ',
       img: '/img/first.png',
     },
     
@@ -130,33 +130,23 @@ export default {
       list: [
         {
           img: '/img/feature_transpart.png',
-          title: 'feature1',
-          content: 'feature description',
+          title: 'High Security',
+          content: 'A deprivileged hypervisor eliminates the kernel’s attack surface introduced by virtualization. The one-to-one service model further enhances the isolation between VMs and the fault tolerance of the entire system.',
         },
         {
           img: '/img/feature_loadbalances.png',
-          title: 'feature2',
-          content: 'feature description',
+          title: 'Near-native Performance',
+          content: 'Getting rid of redundant mode switching completely unleash the potential performance of virtualization. The integrated design further enhances the cooperation between modules to make the code more efficient.',
         },
         {
           img: '/img/feature_service.png',
-          title: 'feature3',
-          content: 'feature description',
+          title: 'Agile Development',
+          content: 'Benefit from the thriving software environment in user space, DuVisor is no longer restricted by the kernel development environment and can freely choose the programming language and existing libraries. The project currently uses Rust to ensure security and takes advantage of the powerful testing framework it provides to improve the quality of the project.',
         },
         {
           img: '/img/feature_hogh.png',
-          title: 'feature4',
-          content: 'feature description',
-        },
-        {
-          img: '/img/feature_runtime.png',
-          title: 'feature5',
-          content: 'feature description',
-        },
-        {
-          img: '/img/feature_maintenance.png',
-          title: 'feature6',
-          content: 'feature description',
+          title: 'Flexible Operations and Maintenance',
+          content: 'DuVisor can be upgraded without rebooting the host system. New features and functionalities can be deployed more quickly. Cloud services will have better fault tolerance benefiting from DuVisor\'s strong isolation.',
         }
       ]
     },

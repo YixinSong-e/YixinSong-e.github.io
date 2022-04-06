@@ -1,19 +1,14 @@
 {
   "en-us": [
     {
-      "filename": "demo1.md",
-      "link": "/en-us/docs/demo1.html",
+      "filename": "Solution.md",
+      "link": "/en-us/docs/Solution.html",
       "meta": {
         "layout": "clean",
-        "title": "Intro",
+        "title": "Solution",
         "date": "2022-04-06 17:50:00",
         "categories": "main"
       }
-    },
-    {
-      "filename": "demo2.md",
-      "link": "/en-us/docs/demo2.html",
-      "meta": {}
     },
     {
       "filename": "developers_dev.md",
@@ -36,6 +31,16 @@
       "meta": {
         "layout": "clean",
         "title": "FAQS",
+        "date": "2022-04-06 17:50:00",
+        "categories": "main"
+      }
+    },
+    {
+      "filename": "motivation.md",
+      "link": "/en-us/docs/motivation.html",
+      "meta": {
+        "layout": "clean",
+        "title": "Intro",
         "date": "2022-04-06 17:50:00",
         "categories": "main"
       }

@@ -6,11 +6,11 @@ export default {
         children: [
           {
             title: 'motivation',
-            link: '/en-us/docs/demo1.html',
+            link: '/en-us/docs/motivation.html',
           },
           {
-            title: 'insight',
-            link: '/en-us/docs/demo2.html',
+            title: 'solution',
+            link: '/en-us/docs/Solution.html',
           },
         ],
       },
