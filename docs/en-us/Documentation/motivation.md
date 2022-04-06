@@ -10,20 +10,20 @@ DuVisor mainly solves three problems faced by current virtualization technologie
 ## Security
 let us first consider the most recognized attack scenarios on the cloud. As shown in Figure-1a, a cloud tenant could be malicious and tries to attack the host system and VMs of the other tenants.
 
-![Attack on the cloud](./img/attack.png )
+![alt Attack on the cloud](../img/attack.png )
 <font face="黑体"><center>Figure-1 Attack on the cloud</center></font>
 
 The malicious guest could first compromise a hypervisor module through vulnerabilities in it. Then the attacker can further take over the entire HS-mode for the lack of isolation in it as shown in Figure 1b.
 Since the supervisor mode has been compromised, such attack would finally result in a compromise of the entire system, including the host applications and all the other VMs (as shown in Figure-1c).
 
-![Table-1 CVE analysis of KVM and Xen](./img/CVE.png )
+![alt Table-1 CVE analysis of KVM and Xen](../img/CVE.png )
 <font face="黑体"><center>Table-1 CVE analysis of KVM and Xen</center></font>
 We further analyzed the vulnerabilities in the CVE database for mainstream hypervisors and found that most of the vulnerabilities can lead to security issues to the host kernel, including privilege escalation, data leakage and denial of service as shown in Table-1. This ratio reaches 64% and 73% on KVM and Xen respectively.
 
 ## Performance
 Current virtualization technologies have near-native performance with most workloads. However, the current split-mode design would introduce redundant mode-switching in some cases which reduces performance as shown in Figure 2.
 
-![Figure-2 Redundant mode-switching](./img/redundent.png )
+![alt Figure-2 Redundant mode-switching](../img/redundent.png )
 <font face="黑体"><center>Figure-2 Redundant mode-switching</center></font>
 VMs have to trap into supervisor mode first and then be forwarded by the kernel to user space for the real handling. Such redundant forwarding lead to a performance overhead about fifty-eight percent according to our test.
 

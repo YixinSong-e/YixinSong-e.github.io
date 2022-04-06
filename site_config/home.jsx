@@ -102,7 +102,7 @@ export default {
       buttons: [
         {
           text: 'What is DuVisor?',
-          link: '/en-us/docs/motivation.html',
+          link: '/en-us/docs/Documentation/motivation.html',
           type: 'primary',
         },
         {

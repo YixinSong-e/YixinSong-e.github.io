@@ -1,8 +1,18 @@
 {
   "en-us": [
     {
-      "filename": "Solution.md",
-      "link": "/en-us/docs/Solution.html",
+      "filename": "motivation.md",
+      "link": "/en-us/docs/Documentation/motivation.html",
+      "meta": {
+        "layout": "clean",
+        "title": "Intro",
+        "date": "2022-04-06 17:50:00",
+        "categories": "main"
+      }
+    },
+    {
+      "filename": "solution.md",
+      "link": "/en-us/docs/Documentation/solution.html",
       "meta": {
         "layout": "clean",
         "title": "Solution",
@@ -31,16 +41,6 @@
       "meta": {
         "layout": "clean",
         "title": "FAQS",
-        "date": "2022-04-06 17:50:00",
-        "categories": "main"
-      }
-    },
-    {
-      "filename": "motivation.md",
-      "link": "/en-us/docs/motivation.html",
-      "meta": {
-        "layout": "clean",
-        "title": "Intro",
         "date": "2022-04-06 17:50:00",
         "categories": "main"
       }
