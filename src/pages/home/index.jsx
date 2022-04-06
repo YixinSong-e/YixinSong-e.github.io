@@ -77,7 +77,6 @@ class Home extends Language {
             <div className="introduction">
               <h3>{dataSource.introduction.title}</h3>
               <p>{dataSource.introduction.desc}</p>
-              <p>{'The one-to-one service model further enhances the isolation between VMs and the fault tolerance of the entire system.'}</p>
             </div>
             <img src={getLink(dataSource.introduction.img)} />
           </div>
