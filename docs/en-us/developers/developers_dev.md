@@ -7,6 +7,21 @@ categories: main
 
 # Team Members 
 
+## Zeyu Mi () 
+
+<img align="right" width="200" height="256" src="../user/sources/images/xyb-small.jpg"/>
+
+
+this is some discription
+
+* character 1
+* Institute of Parallel And Distributed Systems
+* School of Software
+* Shanghai Jiao Tong University
+* 3402, Software Building, 800 Dongchuan Rd., Shanghai, China
+* Zip/Postal Code: 200240
+* Email: 
+
 ## Jiahao Chen ()
 
 <img align="right" width="200" height="256" src="../user/sources/images/tianyiyu.jpg"/>
@@ -54,17 +69,3 @@ this is some discription
 
 
 
-## Zeyu Mi () 
-
-<img align="right" width="200" height="256" src="../user/sources/images/xyb-small.jpg"/>
-
-
-this is some discription
-
-* character 1
-* Institute of Parallel And Distributed Systems
-* School of Software
-* Shanghai Jiao Tong University
-* 3402, Software Building, 800 Dongchuan Rd., Shanghai, China
-* Zip/Postal Code: 200240
-* Email: 
