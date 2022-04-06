@@ -13,9 +13,9 @@ export default {
         link: '/en-us/index.html',
       },
       {
-        key: 'docs',
+        key: 'faqs',
         text: 'FAQS',
-        link: '/en-us/faq/index.html',
+        link: '/en-us/docs/faq/faq.html',
       },
       {
         key: 'blog',

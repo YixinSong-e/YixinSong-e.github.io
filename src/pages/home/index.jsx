@@ -72,11 +72,6 @@ class Home extends Language {
           <div className="animation animation4" />
           <div className="animation animation5" />
         </section>
-        <section className="title1-section">
-
-              <h3>{'Why DuVisor?'}</h3>
-          
-        </section>
         <section className="introduction-section">
           <div className="introduction-body">
             <div className="introduction">
@@ -87,24 +82,15 @@ class Home extends Language {
             <img src={getLink(dataSource.introduction.img)} />
           </div>
         </section>
-        <section className="introduction-section">
-          <div className="introduction-body">
-            <div className="introduction">
-              <h3>{'Near-native Performance'}</h3>
-              <p>{'Getting rid of redundant mode switching completely unleash the potential performance of virtualization. '}</p>
-              <p>{'All-in-one design makes code further efficient.'}</p>
-            </div>
-            <img src={getLink('/img/Performance.png')} />
-          </div>
-        </section>
-        <section className="introduction-section">
-          <div className="introduction-body">
-            <div className="introduction">
-              <h3>{'Better Practicality'}</h3>
-              <p>{'Benefit from the thriving software environment in user space, DuVisor is developed in the memory-safe language Rust. Each upgrade of DuVisor can be completed without host reboots. Stronger fault tolerance also leads to more stable cloud services and better management.'}</p>
-            </div>
-            <img src={getLink('/img/Practicality.png')} />
-          </div>
+        <section className="feature-section">
+          <h3>{dataSource.features.title}</h3>
+          <ul>
+          {
+            dataSource.features.list.map((feature, i) => (
+              <Item feature={feature} key={i} />
+            ))
+          }
+          </ul>
         </section>
         <Footer logo="/img/IPADS-Logo-Blue.png" language={language} />
       </div>

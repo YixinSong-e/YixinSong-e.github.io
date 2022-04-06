@@ -107,17 +107,17 @@ export default {
         },
         {
           text: 'Who are we?',
-          link: 'https://github.com/SJTU-IPADS/duvisor',
+          link: '/en-us/docs/developers/developers_dev.html',
           type: 'normal',
         },
       ],
       buttons2:[
         {
           text: 'Why DuVisor?',
-          link: '/en-us/developers/index.html',
+          link: '/en-us/docs/developers/developers_dev.html',
           type: 'n',
         },
-      ]
+      ],
     },
     introduction: {
       title: 'Stronger Security',
@@ -126,7 +126,7 @@ export default {
     },
     
     features: {
-      title: 'Feature List',
+      title: 'Why DuVisor',
       list: [
         {
           img: '/img/feature_transpart.png',

@@ -11,6 +11,9 @@ import Footer from '../../components/footer';
 import docsConfig from '../../../site_config/docs';
 import './index.scss';
 
+import developConfig from '../../../site_config/developers';
+import faqConfig from '../../../site_config/faq';
+
 // 锚点正则
 const anchorReg = /^#[^/]/;
 // 相对地址正则，包括./、../、直接文件夹名称开头、直接文件开头
@@ -96,12 +99,15 @@ class Documentation extends Language {
 
   render() {
     const language = this.getLanguage();
-    const dataSource = docsConfig[language];
+    const isDevelop = window.location.pathname.split('/').pop().lastIndexOf('_dev.html') !== -1;
+    var lastTwoIndex = window.location.pathname.lastIndexOf("\/");
+    const isConfig = window.location.pathname.substring(0, lastTwoIndex+1).lastIndexOf('faq') !== -1;
+    const dataSource = isDevelop ? developConfig[language] : (isConfig ? faqConfig[language] : docsConfig[language]);
     const __html = this.props.__html || this.state.__html;
     return (
       <div className="documentation-page">
         <Header
-          currentKey="docs"
+          currentKey={isDevelop ? 'developers' : (isConfig ? 'faqs': 'docs')}
           type="normal"
           logo="/img/IPADS-Logo-Blue.png"
           language={language}

@@ -5,7 +5,6 @@ const Item = (props) => {
   const { feature } = props;
   return (
     <li>
-      <img src={getLink(feature.img)} />
       <div>
         <h4>{feature.title}</h4>
         <p>{feature.content}</p>

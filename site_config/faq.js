@@ -6,7 +6,7 @@ export default {
         children: [
           {
             title: 'faq',
-            link: '/en-us/developers/demo1.html',
+            link: '/en-us/docs/faq/faq.html',
           },
         ],
       },

@@ -6,7 +6,7 @@ export default {
         children: [
           {
             title: 'members',
-            link: '/en-us/developers/demo1.html',
+            link: '/en-us/docs/developers/developers_dev.html',
           },
         ],
       },

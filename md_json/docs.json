@@ -3,7 +3,12 @@
     {
       "filename": "demo1.md",
       "link": "/en-us/docs/demo1.html",
-      "meta": {}
+      "meta": {
+        "layout": "clean",
+        "title": "Intro",
+        "date": "2022-04-06 17:50:00",
+        "categories": "main"
+      }
     },
     {
       "filename": "demo2.md",
@@ -11,14 +16,29 @@
       "meta": {}
     },
     {
-      "filename": "demox.md",
-      "link": "/en-us/docs/developers/demox.html",
-      "meta": {}
+      "filename": "developers_dev.md",
+      "link": "/en-us/docs/developers/developers_dev.html",
+      "meta": {
+        "layout": "clean",
+        "title": "Team Members",
+        "date": "2022-04-06 17:50:00",
+        "categories": "main"
+      }
     },
     {
       "filename": "demo3.md",
       "link": "/en-us/docs/dir/demo3.html",
       "meta": {}
+    },
+    {
+      "filename": "faq.md",
+      "link": "/en-us/docs/faq/faq.html",
+      "meta": {
+        "layout": "clean",
+        "title": "FAQS",
+        "date": "2022-04-06 17:50:00",
+        "categories": "main"
+      }
     }
   ],
   "zh-cn": [
