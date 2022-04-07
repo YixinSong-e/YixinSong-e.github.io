@@ -8,6 +8,7 @@ categories: main
 We built a user-level hypervisor called DuVisor to address the flaws mentioned in [Motivation](./motivation.md)).
 ## Stronger Security
 DuVisor deprivileges most functionalities of hypervisor to the user space so that the kernel’s attack surface introduced by virtualization can be eliminated. The one-to-one service model further enhances the isolation between VMs and the fault tolerance of the entire system. Such isolation model (as shown in Figure-1) not only protects the host kernel, but also improves the isolation of VMs for the non-shared hypervisor.
+
 <img align="center" width="640" height="400" src="../img/isolation.png"/>
 <font face="黑体"><center>Figure-1 Strong isolation model of DuVisor</center></font>
 
