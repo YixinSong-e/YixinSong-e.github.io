@@ -98,7 +98,7 @@ export default {
   'en-us': {
     brand: {
       brandName: 'DuVisor',
-      briefIntroduction: 'DuVisor is a user-level hypervisor through delegated virtualization on RISC-V',
+      briefIntroduction: 'A user-level hypervisor through delegated virtualization on RISC-V',
       buttons: [
         {
           text: 'What is DuVisor?',
@@ -122,7 +122,7 @@ export default {
     introduction: {
       title: 'DuVisor',
       desc: 'A User-Level Hypervisor Through HU-Extension on RISC-V ',
-      img: '/img/first.png',
+      img: '/img/cover.jpeg',
     },
     
     features: {
